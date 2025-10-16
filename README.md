@@ -15,3 +15,8 @@ flutter_rust_bridge_codegen create mylib
 ```
 
 Rename package name just search all `rust_lib_audio` in rust_builder and replace with `your_package_name`
+
+For Android: Failed to load dynamic library 'librust_lib_my_app.so': dlopen failed: library "librust_lib_my_app.so"
+
+fix: https://cjycode.com/flutter_rust_bridge/manual/troubleshooting
+
