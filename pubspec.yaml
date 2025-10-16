@@ -1,8 +1,8 @@
 name: mylib
-description: "A new Flutter project."
+description: "A Flutter Rust Package"
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ^3.7.2
@@ -15,14 +15,6 @@ dependencies:
   rust_lib_mylib:
     path: rust_builder
   flutter_rust_bridge: 2.10.0
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-  flutter_lints: ^5.0.0
-  integration_test:
-    sdk: flutter
 
 flutter:
   uses-material-design: true
