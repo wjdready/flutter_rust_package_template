@@ -10,11 +10,3 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.8
-  rust_lib_mylib:
-    path: rust_builder
-  flutter_rust_bridge: 2.10.0
-
-flutter:
-  uses-material-design: true
